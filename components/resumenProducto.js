@@ -2,7 +2,7 @@ import Image from "next/image";
 import { formatearDinero } from "@/helpers";
 import useQuiosco from "@/hooks/useQuiosco";
 
-const resumenProducto = ({ producto }) => {
+const ResumenProducto = ({ producto }) => {
   const { handleEditarCantidades, handleEliminarProducto } = useQuiosco()
 
   return (
