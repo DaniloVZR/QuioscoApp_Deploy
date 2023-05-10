@@ -49,4 +49,4 @@ const ResumenProducto = ({ producto }) => {
   );
 };
 
-export default resumenProducto;
+export default ResumenProducto;
